@@ -1,0 +1,17 @@
+# 密钥
+api_key.txt
+
+# 日志 / 运行产物
+*.log
+*.pid
+captured.log
+captured_proxy.log
+
+# 模型与大文件（不在本仓库，见 README）
+models/
+llama.cpp/
+vllm-env/
+pip-cache/
+
+# Python
+__pycache__/

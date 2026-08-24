@@ -1,0 +1,4 @@
+# 复制为项目根目录的 api_key.txt 并替换为你的密钥:
+#   cp deploy/api_key.txt.example api_key.txt
+# 注意: api_key.txt 已被 .gitignore 排除, 不要提交到仓库
+<replace-with-your-api-key>
