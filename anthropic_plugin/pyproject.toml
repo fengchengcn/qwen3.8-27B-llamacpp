@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anthropic-plugin"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[project.entry-points."vllm.endpoint_plugins"]
+anthropic = "anthropic_plugin:get_plugin"
+
+[tool.setuptools]
+packages = ["anthropic_plugin"]
