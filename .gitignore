@@ -7,13 +7,17 @@ api_key.txt
 captured.log
 captured_proxy.log
 
+# 备份文件
+*.bak
+*.bak_*
+
 # 模型与大文件（不在本仓库，见 README）
 models/
 llama.cpp/
 vllm-env/
+vllm-env-cu128/
 pip-cache/
 
 # Python
-__pycache__/
 __pycache__/
 *.pyc
